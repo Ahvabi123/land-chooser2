@@ -1,0 +1,57 @@
+[
+{
+ "name": "USA",
+ "recommended_budget": 3000,
+ "flight_time": 8,
+ "purpose": ["Work",
+   "Job",
+   "Relocation"
+   ]
+ },
+
+
+
+{
+  "name": "Japan",
+  "recommended_budget": 4000,
+  "flight_time": 13,
+  "purposes": [
+    "Vacation",
+    "Study",
+    "Work"
+  ]
+},
+
+ {
+  "name": "Australia",
+  "recommended_budget": 5000,
+  "flight_time": 21,
+  "purposes": [
+    "Vacation",
+    "Study",
+    "Work",
+    "Relocation"
+  ]
+},
+
+ {
+  "name": "Thailand",
+  "recommended_budget": 1800,
+  "flight_time": 11,
+  "purposes": [
+    "Vacation",
+    "Work"
+  ]
+},
+
+ {
+  "name": "South Korea",
+  "recommended_budget": 3200,
+  "flight_time": 12,
+  "purposes": [
+    "Vacation",
+    "Study",
+    "Work"
+  ]
+}
+]
