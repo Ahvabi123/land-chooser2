@@ -1,24 +1,25 @@
-
 import streamlit as st
 import json
 
-st.title("Country chooser")
+with open("countries.json") as file:
+    countries = json.load(file)
+st.title("Country Chooser")
 
-v1 = st.number_input("Enter your budget")
-v2 = st.slider("Enter the distance you want to go")
+v1 = st.number_input("Enter your budget (€)")
+v2 = st.slider("Enter the maximum flight time (hours)")
 v3 = st.multiselect(
     "Enter your purpose:",
-    ["Job", "Study", "Vacation", "Relocation"]
+    ["Work", "Study", "Vacation", "Relocation"]
 )
 
 if not v3:
-    st.write("Please select at least one purpose")
+    st.write("Please select at least one purpose.")
 else:
     st.write(f"Great! You selected: {v3}")
 
-st.button("Find country")
+if st.button("Find Country"):
 
-with open("countries.json") as file:
-    countries = json.load(file)
-
-st.write(countries)
+ for country in countries:
+    if v1 >= country["recommended_budget"]:
+      if v2 >= country["flight_time"]:
+            st.write(country["name"])
