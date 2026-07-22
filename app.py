@@ -18,7 +18,7 @@ else:
     st.write(f"Great! You selected: {v3}")
 
 if st.button("Find Country"):
-
+ st.write("Button works!")
  for country in countries:
     if v1 >= country["recommended_budget"]:
       if v2 >= country["flight_time"]:
