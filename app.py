@@ -22,4 +22,6 @@ if st.button("Find Country"):
  for country in countries:
     if v1 >= country["recommended_budget"]:
       if v2 >= country["flight_time"]:
-            st.write(country["name"])
+        for purpose in v3:
+            if purpose in country["purpose"]:
+             st.write(country["name"])
