@@ -18,10 +18,17 @@ else:
     st.write(f"Great! You selected: {v3}")
 
 if st.button("Find Country"):
- 
+ st.write("Button works!")
  for country in countries:
-    if v1 >= country["recommended_budget"]:
-      if v2 >= country["flight_time"]:
-        for purpose in v3:
-            if purpose in country["purposes"]:
-             st.write(country["name"])
+     score = 0
+     if v1 >= country["recommended_budget"]:
+      score += 40
+     if v2 >= country["flight_time"]:
+        score += 30
+     for purpose in v3:
+      if purpose in country["purpose"]:
+            score += 30
+            st.write(f"🌍 Country: {country['name']}")
+            st.write(f"💰 Recommended Budget: €{country['recommended_budget']}")
+            st.write(f"✈️ Flight Time: {country['flight_time']} hours")
+            st.write(f"🎯 Purposes: {', '.join(country['purpose'])}")
