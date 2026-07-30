@@ -40,4 +40,4 @@ if st.button("Find Country"):
      st.write(f"💰 Recommended Budget: €{country['recommended_budget']}")
      st.write(f"✈️ Flight Time: {country['flight_time']} hours")
      st.write(f"🎯 Purposes: {', '.join(country['purpose'])}")
-     st.write(results)
+ st.write(results)
