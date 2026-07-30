@@ -21,28 +21,41 @@ if st.button("Find Country"):
  results = []
  for country in countries:
      score = 0
+
      if v1 >= country["recommended_budget"]:
-      score += 40
+         score += 40
 
      if v2 >= country["flight_time"]:
-        score += 30
+         score += 30
 
      for purpose in v3:
-      if purpose in country["purpose"]:
-            score += 30
-            break
-     results.append({
-    "name": country["name"],
-    "score": score
-})
-     sorted_results = sorted(
-         results,
-         key=lambda country: country["score"],
-         reverse=True
-     )
+         if purpose in country["purpose"]:
+             score += 30
+             break
 
-     st.write(f"🌍 Country: {country['name']}")
-     st.write(f"💰 Recommended Budget: €{country['recommended_budget']}")
-     st.write(f"✈️ Flight Time: {country['flight_time']} hours")
-     st.write(f"🎯 Purposes: {', '.join(country['purpose'])}")
- st.write(sorted_results)
+     results.append({
+         "name": country["name"],
+         "score": score,
+         "budget": country["recommended_budget"],
+         "flight": country["flight_time"],
+         "purpose": country["purpose"]
+     })
+
+ sorted_results = sorted(
+     results,
+     key=lambda resul: resul["score"],
+     reverse=True
+ )
+
+ for index, result in enumerate(sorted_results):
+
+    if index == 0:
+        st.success(f"🥇 Best Match: {result['name']}")
+    else:
+        st.subheader(f"🌍 {result['name']}")
+
+    st.write(f"⭐ Score: {result['score']}/100")
+    st.write(f"💰 Budget: €{result['budget']}")
+    st.write(f"✈️ Flight: {result['flight']} hours")
+    st.write(f"🎯 Purpose: {', '.join(result['purpose'])}")
+
