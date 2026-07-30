@@ -35,9 +35,14 @@ if st.button("Find Country"):
     "name": country["name"],
     "score": score
 })
+     sorted_results = sorted(
+         results,
+         key=lambda country: country["score"],
+         reverse=True
+     )
 
+     st.write(sorted_results)
      st.write(f"🌍 Country: {country['name']}")
      st.write(f"💰 Recommended Budget: €{country['recommended_budget']}")
      st.write(f"✈️ Flight Time: {country['flight_time']} hours")
      st.write(f"🎯 Purposes: {', '.join(country['purpose'])}")
- st.write(results)
