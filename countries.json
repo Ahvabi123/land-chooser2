@@ -1,302 +1,258 @@
 [
+{
+  "name": "Czech Republic",
+  "flag": "🇨🇿",
+  "continent": "Europe",
+  "recommended_budget": 1100,
+  "flight_time": 2,
+  "rating": 9.08,
+  "purposes": [
+    "Vacation",
+    "Study",
+    "Work"
+  ]
+},
+{
+  "name": "Japan",
+  "flag": "🇯🇵",
+  "continent": "Asia",
+  "recommended_budget": 2300,
+  "flight_time": 13,
+  "rating": 9.91,
+  "purposes": ["Vacation", "Study", "Work"]
+},
+{
+  "name": "South Korea",
+  "flag": "🇰🇷",
+  "continent": "Asia",
+  "recommended_budget": 2100,
+  "flight_time": 12,
+  "rating": 9.58,
+  "purposes": ["Vacation", "Study", "Work"]
+},
+{
+  "name": "China",
+  "flag": "🇨🇳",
+  "continent": "Asia",
+  "recommended_budget": 1900,
+  "flight_time": 11,
+  "rating": 8.94,
+  "purposes": ["Vacation", "Study", "Work"]
+},
+{
+  "name": "Singapore",
+  "flag": "🇸🇬",
+  "continent": "Asia",
+  "recommended_budget": 2400,
+  "flight_time": 13,
+  "rating": 9.89,
+  "purposes": ["Vacation", "Study", "Work"]
+},
+{
+  "name": "Thailand",
+  "flag": "🇹🇭",
+  "continent": "Asia",
+  "recommended_budget": 1450,
+  "flight_time": 11,
+  "rating": 9.21,
+  "purposes": ["Vacation"]
+},
+{
+  "name": "Malaysia",
+  "flag": "🇲🇾",
+  "continent": "Asia",
+  "recommended_budget": 1700,
+  "flight_time": 13,
+  "rating": 9.06,
+  "purposes": ["Vacation", "Study", "Work"]
+},
+{
+  "name": "India",
+  "flag": "🇮🇳",
+  "continent": "Asia",
+  "recommended_budget": 1300,
+  "flight_time": 9,
+  "rating": 8.61,
+  "purposes": ["Vacation", "Study", "Work"]
+},
+{
+  "name": "United Arab Emirates",
+  "flag": "🇦🇪",
+  "continent": "Asia",
+  "recommended_budget": 1900,
+  "flight_time": 7,
+  "rating": 9.32,
+  "purposes": ["Vacation", "Work", "Relocation"]
+},
+{
+  "name": "USA",
+  "flag": "🇺🇸",
+  "continent": "North America",
+  "recommended_budget": 2600,
+  "flight_time": 8,
+  "rating": 9.55,
+  "purposes": ["Vacation", "Study", "Work", "Relocation"]
+},
+{
+  "name": "Canada",
+  "flag": "🇨🇦",
+  "continent": "North America",
+  "recommended_budget": 2500,
+  "flight_time": 8,
+  "rating": 9.83,
+  "purposes": ["Vacation", "Study", "Work", "Relocation"]
+},
+{
+  "name": "Mexico",
+  "flag": "🇲🇽",
+  "continent": "North America",
+  "recommended_budget": 2100,
+  "flight_time": 11,
+  "rating": 8.82,
+  "purposes": ["Vacation", "Work"]
+},
+{
+  "name": "Costa Rica",
+  "flag": "🇨🇷",
+  "continent": "North America",
+  "recommended_budget": 2200,
+  "flight_time": 12,
+  "rating": 9.17,
+  "purposes": ["Vacation", "Relocation"]
+},
   {
-    "name": "USA",
-    "recommended_budget": 2600,
-    "flight_time": 8,
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "continent": "Europe",
+    "recommended_budget": 1400,
+    "flight_time": 1,
+    "rating": 9.63,
     "purposes": ["Vacation", "Study", "Work", "Relocation"]
   },
   {
-    "name": "Japan",
-    "recommended_budget": 2300,
-    "flight_time": 13,
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "continent": "Europe",
+    "recommended_budget": 1300,
+    "flight_time": 1,
+    "rating": 9.29,
     "purposes": ["Vacation", "Study", "Work"]
-  },
-  {
-    "name": "Australia",
-    "recommended_budget": 3200,
-    "flight_time": 21,
-    "purposes": ["Vacation", "Study", "Work", "Relocation"]
-  },
-  {
-    "name": "Thailand",
-    "recommended_budget": 1450,
-    "flight_time": 11,
-    "purposes": ["Vacation"]
-  },
-  {
-    "name": "South Korea",
-    "recommended_budget": 2100,
-    "flight_time": 12,
-    "purposes": ["Vacation", "Study", "Work"]
-  },
-  {
-    "name": "Canada",
-    "recommended_budget": 2500,
-    "flight_time": 8,
-    "purposes": ["Vacation", "Study", "Work", "Relocation"]
   },
   {
     "name": "Germany",
+    "flag": "🇩🇪",
+    "continent": "Europe",
     "recommended_budget": 1250,
     "flight_time": 1,
+    "rating": 9.72,
     "purposes": ["Vacation", "Study", "Work", "Relocation"]
   },
   {
     "name": "France",
+    "flag": "🇫🇷",
+    "continent": "Europe",
     "recommended_budget": 1450,
     "flight_time": 1,
+    "rating": 9.54,
+    "purposes": ["Vacation", "Study", "Work"]
+  },
+  {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "continent": "Europe",
+    "recommended_budget": 1350,
+    "flight_time": 2,
+    "rating": 9.48,
+    "purposes": ["Vacation", "Study", "Work"]
+  },
+  {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "continent": "Europe",
+    "recommended_budget": 1300,
+    "flight_time": 3,
+    "rating": 9.41,
     "purposes": ["Vacation", "Study", "Work"]
   },
   {
     "name": "Italy",
+    "flag": "🇮🇹",
+    "continent": "Europe",
     "recommended_budget": 1450,
     "flight_time": 2,
+    "rating": 9.52,
     "purposes": ["Vacation", "Study"]
   },
   {
-    "name": "Spain",
-    "recommended_budget": 1350,
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "continent": "Europe",
+    "recommended_budget": 2600,
     "flight_time": 2,
+    "rating": 9.94,
+    "purposes": ["Vacation", "Work", "Relocation"]
+  },
+  {
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "continent": "Europe",
+    "recommended_budget": 1500,
+    "flight_time": 2,
+    "rating": 9.38,
     "purposes": ["Vacation", "Study", "Work"]
   },
   {
-    "name": "United Kingdom",
-    "recommended_budget": 1700,
-    "flight_time": 1,
-    "purposes": ["Study", "Work", "Relocation", "Vacation"]
-  },
-  {
     "name": "Sweden",
+    "flag": "🇸🇪",
+    "continent": "Europe",
     "recommended_budget": 2100,
     "flight_time": 2,
+    "rating": 9.69,
     "purposes": ["Study", "Work", "Relocation"]
   },
   {
     "name": "Norway",
+    "flag": "🇳🇴",
+    "continent": "Europe",
     "recommended_budget": 2500,
     "flight_time": 2,
+    "rating": 9.87,
     "purposes": ["Work", "Relocation", "Vacation"]
   },
   {
-    "name": "Switzerland",
-    "recommended_budget": 2600,
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "continent": "Europe",
+    "recommended_budget": 2000,
     "flight_time": 2,
-    "purposes": ["Vacation", "Work", "Relocation"]
+    "rating": 9.66,
+    "purposes": ["Study", "Work", "Relocation"]
   },
   {
-    "name": "Singapore",
-    "recommended_budget": 2400,
-    "flight_time": 13,
+    "name": "Finland",
+    "flag": "🇫🇮",
+    "continent": "Europe",
+    "recommended_budget": 1900,
+    "flight_time": 3,
+    "rating": 9.57,
     "purposes": ["Vacation", "Study", "Work"]
   },
   {
-    "name": "New Zealand",
-    "recommended_budget": 3500,
-    "flight_time": 24,
-    "purposes": ["Vacation", "Study", "Relocation"]
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "continent": "Europe",
+    "recommended_budget": 1800,
+    "flight_time": 2,
+    "rating": 9.46,
+    "purposes": ["Study", "Work", "Relocation"]
   },
   {
-    "name": "Brazil",
-    "recommended_budget": 2200,
-    "flight_time": 12,
-    "purposes": ["Vacation", "Work"]
-  },
-  {
-    "name": "United Arab Emirates",
-    "recommended_budget": 1900,
-    "flight_time": 7,
-    "purposes": ["Vacation", "Work", "Relocation"]
-  },
-  {
-    "name": "Turkey",
-    "recommended_budget": 900,
-    "flight_time": 4,
-    "purposes": ["Vacation", "Study", "Work"]
-  },
-  {
-    "name": "China",
-    "recommended_budget": 1900,
-    "flight_time": 11,
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "continent": "Europe",
+    "recommended_budget": 1000,
+    "flight_time": 2,
+    "rating": 8.93,
     "purposes": ["Vacation", "Study", "Work"]
   }
-,
-{
-  "name": "Netherlands",
-  "recommended_budget": 1400,
-  "flight_time": 1,
-  "purposes": ["Vacation", "Study", "Work", "Relocation"]
-},
-{
-  "name": "Belgium",
-  "recommended_budget": 1300,
-  "flight_time": 1,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Austria",
-  "recommended_budget": 1500,
-  "flight_time": 2,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Denmark",
-  "recommended_budget": 2000,
-  "flight_time": 2,
-  "purposes": ["Study", "Work", "Relocation"]
-},
-{
-  "name": "Finland",
-  "recommended_budget": 1900,
-  "flight_time": 3,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Portugal",
-  "recommended_budget": 1300,
-  "flight_time": 3,
-  "purposes": ["Vacation", "Study", "Digital Nomad"]
-},
-{
-  "name": "Greece",
-  "recommended_budget": 1400,
-  "flight_time": 3,
-  "purposes": ["Vacation", "Study"]
-},
-{
-  "name": "Ireland",
-  "recommended_budget": 1800,
-  "flight_time": 2,
-  "purposes": ["Study", "Work", "Relocation"]
-},
-{
-  "name": "Poland",
-  "recommended_budget": 1000,
-  "flight_time": 2,
-  "purposes": ["Study", "Work", "Vacation"]
-},
-{
-  "name": "Czech Republic",
-  "recommended_budget": 1100,
-  "flight_time": 2,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Hungary",
-  "recommended_budget": 1000,
-  "flight_time": 2,
-  "purposes": ["Vacation", "Study"]
-},
-{
-  "name": "Romania",
-  "recommended_budget": 900,
-  "flight_time": 3,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Croatia",
-  "recommended_budget": 1200,
-  "flight_time": 2,
-  "purposes": ["Vacation"]
-},
-{
-  "name": "Iceland",
-  "recommended_budget": 2600,
-  "flight_time": 3,
-  "purposes": ["Vacation", "Relocation"]
-},
-{
-  "name": "Mexico",
-  "recommended_budget": 2100,
-  "flight_time": 11,
-  "purposes": ["Vacation", "Work"]
-},
-{
-  "name": "Argentina",
-  "recommended_budget": 2300,
-  "flight_time": 15,
-  "purposes": ["Vacation", "Study"]
-},
-{
-  "name": "Chile",
-  "recommended_budget": 2400,
-  "flight_time": 15,
-  "purposes": ["Vacation", "Work"]
-},
-{
-  "name": "Peru",
-  "recommended_budget": 1800,
-  "flight_time": 14,
-  "purposes": ["Vacation"]
-},
-{
-  "name": "India",
-  "recommended_budget": 1300,
-  "flight_time": 9,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Malaysia",
-  "recommended_budget": 1700,
-  "flight_time": 13,
-  "purposes": ["Vacation", "Study", "Work"]
-},
-{
-  "name": "Indonesia",
-  "recommended_budget": 1800,
-  "flight_time": 16,
-  "purposes": ["Vacation"]
-},
-{
-  "name": "Vietnam",
-  "recommended_budget": 1600,
-  "flight_time": 14,
-  "purposes": ["Vacation", "Work"]
-},
-{
-  "name": "Philippines",
-  "recommended_budget": 1900,
-  "flight_time": 16,
-  "purposes": ["Vacation", "Study"]
-},
-{
-  "name": "Taiwan",
-  "recommended_budget": 2100,
-  "flight_time": 14,
-  "purposes": ["Study", "Work", "Vacation"]
-},
-{
-  "name": "Hong Kong",
-  "recommended_budget": 2300,
-  "flight_time": 13,
-  "purposes": ["Work", "Vacation"]
-},
-{
-  "name": "South Africa",
-  "recommended_budget": 2200,
-  "flight_time": 12,
-  "purposes": ["Vacation", "Work"]
-},
-{
-  "name": "Egypt",
-  "recommended_budget": 1400,
-  "flight_time": 5,
-  "purposes": ["Vacation", "Study"]
-},
-{
-  "name": "Morocco",
-  "recommended_budget": 1300,
-  "flight_time": 4,
-  "purposes": ["Vacation"]
-},
-{
-  "name": "Saudi Arabia",
-  "recommended_budget": 1800,
-  "flight_time": 6,
-  "purposes": ["Work", "Relocation"]
-},
-{
-  "name": "Qatar",
-  "recommended_budget": 2000,
-  "flight_time": 6,
-  "purposes": ["Work", "Relocation", "Vacation"]
-}]
+]
