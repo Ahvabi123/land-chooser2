@@ -53,7 +53,7 @@ if st.button("Find Country"):
     # Sonuçları puana göre sırala
     sorted_results = sorted(
         results,
-        key=lambda resul: result["score"],
+        key=lambda result: result["score"],
         reverse=True
     )
 
