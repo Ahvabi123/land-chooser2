@@ -29,7 +29,7 @@ if st.button("Find Country"):
          score += 30
 
      for purpose in v3:
-         if purpose in country["purpose"]:
+         if purpose in country["purposes"]:
              score += 30
              break
 
@@ -38,7 +38,7 @@ if st.button("Find Country"):
          "score": score,
          "budget": country["recommended_budget"],
          "flight": country["flight_time"],
-         "purpose": country["purpose"]
+         "purpose": country["purposes"]
      })
 
  sorted_results = sorted(
